@@ -1,0 +1,36 @@
+﻿header{background-image: url(images/piu.jpg);
+width: 1270px;
+	height: 165px;
+	margin:0}
+nav{margin:0}	
+div#menu1{background:linear-gradient(indianred,gold);
+height:30px;
+margin:0px;
+padding:0;
+position:relative;}
+ul{width:100%;
+
+position:relative;
+list-style-type:none;
+overflow:hidden;
+padding:0;}
+ul.oops{width:100%;
+
+position:relative;
+list-style-type:none;
+overflow:hidden;
+padding:0;}
+ul.oops li{
+
+border-right:none;
+border-radius:0;
+padding:6px 20px;
+box-shadow:none;
+font-size:1.0125em;
+display:inline-block;margin:0}
+ul li{border-right:2px solid white;
+border-radius:0 15px 15px 0;
+padding:6px 21px;
+box-shadow:5px 2px 5px -2px indianred;
+font-size:1.0125em;
+display:inline-block;margin:0}

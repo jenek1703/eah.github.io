@@ -1,0 +1,79 @@
+﻿<html>
+
+<style>
+p{
+  text-align: justify;
+  -moz-text-align-last: justify; -webkit-text-align-last: justify; text-align-last: justify; /* пока поддерживает только Firefox и IE */ 
+}
+img[tabindex="0"] {
+  cursor: zoom-in;
+}
+img[tabindex="0"]:focus {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  max-width: 99%;
+  max-height: 99%;
+  margin: auto;
+  box-shadow: 0 0 20px #000, 0 0 0 1000px rgba(210,210,210,.4);
+}
+img[tabindex="0"]:focus,  /* убрать строку, если не нужно, чтобы при клике на увеличенное фото, оно возвращалось в исходное состояние */
+img[tabindex="0"]:focus ~ * {
+  pointer-events: none;
+  cursor: zoom-out;
+}
+</style>
+<body>
+<head>
+<link rel="stylesheet" href="nav.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="menu.css">
+</head>
+<header></header>
+<nav><div id='menu1'>
+  <ul>
+   <li><a href="главная.html">Главная</a></li>
+   <li><a href="биография.html">Биография</a></li>
+   <li><a href="омультике.html">О мультике</a></li>
+   <li><a href="картинки.html">Картинки</a></li>
+   <li><a href="игры.html">Игры</a></li>
+  </ul>
+  </div></nav>
+<main>
+<p>
+<img src="kartinki/youloveit_ru_akavarelnye_kartinki_ever_a.jpg" alt="" width="244" height="512" tabindex="0"/>
+<img src="kartinki/youloveit_ru_akavarelnye_kartinki_ever_a_2.jpg" alt="" width="244"  height="512" tabindex="0"/>
+<img src="kartinki/youloveit_ru_akavarelnye_kartinki_ever_a_3.jpg" alt="" width="244"  height="512" tabindex="0"/>
+<img src="kartinki/youloveit_ru_akavarelnye_kartinki_ever_a_4.jpg" alt="" width="244"  height="512" tabindex="0"/>
+<img src="kartinki/youloveit_ru_akavarelnye_kartinki_ever_a_5.jpg" alt="" width="350"  height="611" tabindex="0"/>
+<img src="kartinki/youloveit_ru_akavarelnye_kartinki_ever_a_6.jpg" alt="" width="350"  height="717" tabindex="0"/>
+<img src="kartinki/youloveit_ru_novye_kartinki_ever_after_h_6.jpg" alt="" width="288"  height="658" tabindex="0"/>
+<img src="kartinki/youloveit_ru_novye_kartinki_ever_after_h_9.jpg" alt="" width="332"  height="816" tabindex="0"/>
+<img src="kartinki/youloveit_ru_novye_kartinki_ever_after_h_3.jpg" alt="" width="287"  height="652" tabindex="0"/>
+<img src="kartinki/youloveit_ru_novye_kartinki_ever_after_h_4.jpg" alt="" width="472"  height="710" tabindex="0"/>
+<img src="kartinki/youloveit_ru_novye_kartinki_ever_after_h_5.jpg" alt="" width="293"  height="561" tabindex="0"/>
+<img src="kartinki/youloveit_ru_novye_kartinki_ever_after_h_10.jpg" alt="" width="212"  height="483" tabindex="0"/>
+<img src="kartinki/youloveit_ru_novye_kartinki_ever_after_h_7.jpg" alt="" width="297"  height="615" tabindex="0"/>
+<img src="kartinki/youloveit_ru_novye_kartinki_ever_after_h_8.jpg" alt="" width="287"  height="623" tabindex="0"/>
+</p>
+<a href="картинки.html">
+<button >1</button></a>
+</a>
+<a href="картинки2.html">
+<button type="submit">2</button></a>
+</a>
+<a href="картинки3.html">
+<button type="submit">3</button></a>
+</a>
+</main>
+<footer><h3 align="right">Viber:+79515057505</h3>
+<h4 align="center">Skype:generalogun</h4>
+<h2 align="center">Создатель сайта:Жека Олефиренко</h2></footer>
+</body>
+</body>
+</html>

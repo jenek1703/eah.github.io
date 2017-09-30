@@ -1,0 +1,71 @@
+﻿footer {
+	margin: auto 0;
+	min-width: 1000px;
+	max-width: 1800px;
+	height: 150px;
+	background-image: url(kartinki/fon/bg-223.png); /* Путь к фоновому рисунку */
+   /*бесшовный фон как на беоне*/
+
+}
+H2 {
+  text-shadow: 1px 1px 0 hsl(20,100%,50%),
+               2px 2px 0 hsl(20,100%,50%),
+               3px 3px 0 hsl(35,100%,50%),
+               4px 4px 0 hsl(35,100%,50%),
+               5px 5px 0 hsl(45,100%,50%),
+               6px 6px 0 hsl(45,100%,55%),
+               7px 7px 0 hsl(55,100%,60%),
+               8px 8px 0 hsl(55,100%,65%);
+  color: hsl(0,100%,40%);
+  transition: all 1s;
+  }
+  H2:hover {
+    text-shadow: 1px -1px 0 hsl(290,100%,40%),
+               2px -2px 0 hsl(290,100%,40%),
+               3px -3px 0 hsl(280,100%,60%),
+               4px -4px 0 hsl(280,100%,60%),
+               5px -5px 0 hsl(270,100%,75%),
+               6px -6px 0 hsl(270,100%,80%),
+               7px -7px 0 hsl(260,100%,85%),
+               8px -8px 0 hsl(260,100%,90%);
+      color: hsl(300,100%,30%);
+    }
+H3 {
+  font-size: 20px;
+  font-weight: normal;
+  cursor: pointer;
+  text-shadow: 0 0 15px #fff;
+  color: transparent;
+  transition: all 1s;
+  }
+  H3:hover {
+    text-shadow: 0 0 0 #333;
+    }
+p {
+  text-shadow: 1px 1px 1px silver,
+               -1px 1px 1px silver;
+  transition: all .5s;
+  }
+  p:hover {
+    text-shadow: -1px -1px 1px silver,
+                 1px -1px 1px silver;
+    }
+H4 {
+  text-shadow: -1px -1px #FFF,
+               -2px -2px #FFF,
+               -1px 1px #FFF,
+               -2px 2px #FFF,
+               1px 1px #FFF,
+               2px 2px #FFF,
+               1px -1px #FFF,
+               2px -2px #FFF,
+               -3px -3px 2px #BBB,
+               -3px 3px 2px #BBB,
+               3px 3px 2px #BBB,
+               3px -3px 2px #BBB;
+  color: steelblue;
+  transition: all 1s;
+  }
+  H4:hover {
+    color: yellowgreen;
+    }

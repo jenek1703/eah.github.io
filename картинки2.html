@@ -1,0 +1,77 @@
+﻿<html>
+<style>
+p{
+  text-align: justify;
+  -moz-text-align-last: justify; -webkit-text-align-last: justify; text-align-last: justify; /* пока поддерживает только Firefox и IE */ 
+}
+img[tabindex="0"] {
+  cursor: zoom-in;
+}
+img[tabindex="0"]:focus {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  max-width: 99%;
+  max-height: 99%;
+  margin: auto;
+  box-shadow: 0 0 20px #000, 0 0 0 1000px rgba(210,210,210,.4);
+}
+img[tabindex="0"]:focus,  /* убрать строку, если не нужно, чтобы при клике на увеличенное фото, оно возвращалось в исходное состояние */
+img[tabindex="0"]:focus ~ * {
+  pointer-events: none;
+  cursor: zoom-out;
+}
+</style>
+<body>
+<head>
+<link rel="stylesheet" href="nav.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="menu.css">
+</head>
+<header></header>
+<nav><div id='menu1'>
+  <ul>
+   <li><a href="главная.html">Главная</a></li>
+   <li><a href="биография.html">Биография</a></li>
+   <li><a href="омультике.html">О мультике</a></li>
+   <li><a href="картинки.html">Картинки</a></li>
+   <li><a href="игры.html">Игры</a></li>
+  </ul>
+  </div></nav></header>
+<main>
+<p>
+<img src="kartinki/eah_catalogue_2014_07-12.jpg" alt="" width="428" height="428" tabindex="0"/>
+<img src="kartinki/youloveit_ru_ever_after_high_den_koronac_2.png" alt="" width="325"  height="432" tabindex="0"/>
+<img src="kartinki/youloveit_ru_ever_after_high_thronecomin_2.png" alt="" width="304"  height="378" tabindex="0"/>
+<img src="kartinki/youloveit_ru_ever_after_high_den_koronac_3.png" alt="" width="333"  height="522" tabindex="0"/>
+<img src="kartinki/youloveit_ru_ever_after_high_kartinki_th.jpg" alt="" width="457"  height="551" tabindex="0"/>
+<img src="kartinki/youloveit_ru_ever_after_high_thronecomin_3.png" alt="" width="377"  height="464" tabindex="0"/>
+<img src="kartinki/youloveit_ru_ever_after_high_skazka_naiz_4.png" alt="" width="712"  height="404" tabindex="0"/>
+<img src="kartinki/youloveit_ru_daring_dexter.jpg" alt="" width="448"  height="336" tabindex="0"/>
+<img src="kartinki/youloveit_ru_cupidon_ever_after_high.jpg" alt="" width="357"  height="277" tabindex="0"/>
+<img src="kartinki/youloveit_ru_ever_after_high_14_fevralya.png" alt="" width="320"  height="240" tabindex="0"/>
+<img src="kartinki/youloveit_ru_ever_after_high_konkurs_kra.png" alt="" width="497"  height="346" tabindex="0"/>
+<img src="kartinki/youloveit_ru_ever_after_high_cupidon_i_d.jpg" alt="" width="536"  height="405" tabindex="0"/>
+<img src="kartinki/youloveit_ru_ever_after_high_legasy_day2.jpg" alt="" width="503"  height="283" tabindex="0"/>
+</p>
+<a href="картинки.html">
+<button >1</button></a>
+</a>
+<a href="картинки2.html">
+<button type="submit">2</button></a>
+</a>
+<a href="картинки3.html">
+<button type="submit">3</button></a>
+</a>
+</main>
+<footer><h3 align="right">Viber:+79515057505</h3>
+<h4 align="center">Skype:generalogun</h4>
+<h2 align="center">Создатель сайта:Жека Олефиренко</h2></footer>
+</body>
+</body>
+</html>

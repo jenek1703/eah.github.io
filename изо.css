@@ -1,0 +1,115 @@
+﻿   ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+   }
+   ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    /*border: 1px solid #000;  Рамка вокруг текста */
+    /*padding: 3px;  Поля вокруг текста */
+   }
+.i1 { 
+background: url(игры/1.jpg) no-repeat 50% 50%;  
+display: block;
+width: 300px; 
+height: 300px; 
+}
+
+.i1:hover { 
+background: url(игры/1.png)no-repeat 50% 50%; 
+}
+
+.i2 { 
+background: url(игры/2.jpg) no-repeat 50% 50%;  
+display: block;
+width: 300px; 
+height: 300px; 
+}
+
+.i2:hover { 
+background: url(игры/2.png)no-repeat 50% 50%; 
+}
+
+.i3 { 
+background: url(игры/3.jpg) no-repeat 50% 50%;  
+display: block;
+width: 300px; 
+height: 300px; 
+}
+
+.i3:hover { 
+background: url(игры/3.png)no-repeat 50% 50%; 
+}
+
+.i4 { 
+background: url(игры/4.jpg) no-repeat 50% 50%;  
+display: block;
+width: 300px; 
+height: 300px; 
+}
+
+.i4:hover { 
+background: url(игры/4.png)no-repeat 50% 50%; 
+}
+
+.i5 { 
+background: url(игры/5.jpg) no-repeat 50% 50%;  
+display: block;
+width: 300px; 
+height: 300px; 
+}
+
+.i5:hover { 
+background: url(игры/5.png)no-repeat 50% 50%; 
+}
+.i6 { 
+background: url(игры/6.jpg) no-repeat 50% 50%;  
+display: block;
+width: 300px; 
+height: 300px; 
+}
+
+.i6:hover { 
+background: url(игры/6.png)no-repeat 50% 50%; 
+}
+.i7 { 
+background: url(игры/7.jpg) no-repeat 50% 50%;  
+display: block;
+width: 300px; 
+height: 300px; 
+}
+
+.i7:hover { 
+background: url(игры/7.png)no-repeat 50% 50%; 
+}
+
+.i8 { 
+background: url(игры/8.jpg) no-repeat 50% 50%;  
+display: block;
+width: 300px; 
+height: 300px; 
+}
+
+.i8:hover { 
+background: url(игры/8.png)no-repeat 50% 50%; 
+}
+.i9 { 
+background: url(игры/9.jpg) no-repeat 50% 50%;  
+display: block;
+width: 300px; 
+height: 300px; 
+}
+
+.i9:hover { 
+background: url(игры/9.png)no-repeat 50% 50%; 
+}
+.i10 { 
+background: url(игры/10.jpg) no-repeat 50% 50%;  
+display: block;
+width: 300px; 
+height: 300px; 
+}
+
+.i10:hover { 
+background: url(игры/10.png)no-repeat 50% 50%; 
+}
